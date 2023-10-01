@@ -510,11 +510,11 @@ img {
     background-color: rgba(46, 47, 66, 0.4);
 }
 
-.beckdrop.is-hidden {
+/* .beckdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
+} */
 
 .modal-window {
     position: absolute;
@@ -554,8 +554,8 @@ img {
 
 .close-button:hover,
 .close-button:focus {
+   border: none;
     background-color: #404bbf;
-    border: none;
 }
 
 .close-button-icon {
@@ -627,8 +627,8 @@ img {
 
 .modal-form-input:hover,
 .modal-form-input:focus {
-    border-color: var(--iris-color);
     outline: none;
+    border-color: #4D5AE5;
 }
 
 .input-svg {
@@ -644,6 +644,8 @@ img {
 .modal-form-input:focus + .input-svg {
     fill: var(--iris-color);
 }
+
+
 
 .div-input-coment {
     margin-bottom: 16px;
@@ -669,7 +671,7 @@ img {
 .modal-form-message:hover,
 .modal-form-message:focus {
 
-border-color: var(--iris-color);
+border-color: #4D5AE5;
 }
 
 .modal-form-check:checked + .modal-form-check-desc > .span-form-check {

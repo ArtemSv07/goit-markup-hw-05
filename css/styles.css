@@ -509,11 +509,11 @@ img {
     background-color: rgba(46, 47, 66, 0.4);
 }
 
-/* .beckdrop.is-hidden {
+.beckdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-} */
+}
 
 .modal-window {
     position: absolute;
@@ -693,17 +693,19 @@ border-color: var(--iris-color);
 
 .imput-footer {
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: left;
     width: 264px;
     height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border: 1px solid var(--white-color);
     border-radius: 4px;
     padding-left: 16px;
     background-color: transparent;
     outline: none;
     color: var(--white-color);
+   
    
 }
 
@@ -723,13 +725,14 @@ border-color: var(--iris-color);
 
 .btn-footer {
     display: flex;
-    gap: 16px;
+    justify-content: center;
     min-width: 165px;
     height: 40px;
     padding: 8px 24px;
     border-radius: 4px;
     border: none;
     align-items: center;
+    cursor: pointer;
 
     font-size: 16px;
     font-weight: 500;
@@ -746,4 +749,8 @@ border-color: var(--iris-color);
 .btn-footer:hover, 
 .btn-footer:focus {
     background-color: var(--ocean-color);
+}
+
+.svg-footer {
+    margin-left: 16px;
 }
